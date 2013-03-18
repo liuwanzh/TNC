@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libhostscannerimc.so.0 -o libhostscannerimc.so.0.8.4 CMakeFiles/hostscannerimc.dir/src/HostScannerIMCLibrary.cpp.o CMakeFiles/hostscannerimc.dir/src/HostScannerIMC.cpp.o ../../../imunit/libimunit.so.0.8.4 -llog4cxx -Wl,-rpath,/home/liuwanzh/tnc/TNC/tnc-fhh/build/imunit: 

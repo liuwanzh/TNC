@@ -1,0 +1,8 @@
+# Path to a x509 certificate for the AIK to use
+#
+x509_certificate_file /home/feng/Downloads/privacyca/outcertfile 
+
+#
+# where to find the aik blob to use
+#
+aik_key_file /home/feng/Downloads/privacyca/outtkeyblobfile

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libexampleimc.so.0 -o libexampleimc.so.0.8.4 CMakeFiles/exampleimc.dir/src/ExampleIMCLibrary.cpp.o CMakeFiles/exampleimc.dir/src/ExampleIMC.cpp.o ../../../imunit/libimunit.so.0.8.4 -llog4cxx -Wl,-rpath,/home/liuwanzh/tnc/TNC/tnc-fhh/build/imunit: 

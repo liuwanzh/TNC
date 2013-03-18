@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libclamavimc.so.0 -o libclamavimc.so.0.8.4 CMakeFiles/clamavimc.dir/src/ClamavIMCLibrary.cpp.o CMakeFiles/clamavimc.dir/src/ClamavIMC.cpp.o ../../../imunit/libimunit.so.0.8.4 -llog4cxx -Wl,-rpath,/home/liuwanzh/tnc/TNC/tnc-fhh/build/imunit: 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -fPIC  -shared -Wl,-soname,libtncutil.so.0 -o libtncutil.so.0.8.4 CMakeFiles/tncutil.dir/src/tncutil/Configuration.cpp.o CMakeFiles/tncutil.dir/src/tncutil/ConfigurationService.cpp.o CMakeFiles/tncutil.dir/src/tncutil/XercesString.cpp.o -llog4cxx -lxerces-c 

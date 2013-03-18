@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuwanzh/tnc/TNC/tnc-fhh/imcv/attestation/imv/src/AttestationIMVPolicyManager.cpp
+AttestationIMVPolicyManager.h
+/home/liuwanzh/tnc/TNC/tnc-fhh/imcv/attestation/imv/src/AttestationIMVPolicyManager.h
+log4cxx/logger.h
+/home/liuwanzh/tnc/TNC/tnc-fhh/imcv/attestation/imv/src/log4cxx/logger.h
+sstream
+-
+iomanip
+-
+string.h
+-
+stdio.h
+-
+fstream
+-
+algorithm
+-
+
+/home/liuwanzh/tnc/TNC/tnc-fhh/imcv/attestation/imv/src/AttestationIMVPolicyManager.h
+iostream
+-
+vector
+-
+stdint.h
+-
+attestationimvConfig.h
+/home/liuwanzh/tnc/TNC/tnc-fhh/imcv/attestation/imv/src/attestationimvConfig.h
+
+imcv/attestation/imv/attestationimvConfig.h
+

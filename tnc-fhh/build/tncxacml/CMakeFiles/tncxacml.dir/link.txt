@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -fPIC  -shared -Wl,-soname,libtncxacml.so.0 -o libtncxacml.so.0.8.4 CMakeFiles/tncxacml.dir/src/tncxacml/XACMLHelper.cpp.o CMakeFiles/tncxacml.dir/src/tncxacml/XACMLConstants.cpp.o -llog4cxx -lxerces-c -lssl -lboost_system-mt -lboost_thread-mt ../tncutil/libtncutil.so.0.8.4 -llog4cxx -lxerces-c -Wl,-rpath,/home/liuwanzh/tnc/TNC/tnc-fhh/build/tncutil: 
