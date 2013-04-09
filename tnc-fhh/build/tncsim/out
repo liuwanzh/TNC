@@ -7,64 +7,65 @@ tncsim version 0.8.4
 # init server
 ###############################################################################
 
-2013-03-17 13:53:34,347 | INFO  | IMUnit.IMUnitLibrary | - Load imunit-Library version 0.8.4
-2013-03-17 13:53:34,347 | INFO  | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMVLibrary | - Load ProcwatcherIMV library 
-2013-03-17 13:53:34,347 | TRACE | ProcwatcherIMVPolicyManager | - ProcwatcherIMVPolicyManager()
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - Parsing policy file /etc/tnc/procwatcherimv.policy
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 0
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 2
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 5
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 13
-2013-03-17 13:53:34,347 | WARN  | ProcwatcherIMVPolicyManager | - Invalid policy line: digest=Yi??}oH??^Z^B?!9??5??^[1
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/dbus-daemon hash505745DE24D3B9BF427EEF5614E6918876AFDA2A
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/cat hash453E00DB03CACB0CD5D1878070E8182AA4DB45BB
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/dash hashB3ADC6EA771CEF98F8DC090811426DA1D893C007
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/bash hash3837E89ABD189048B03A97B3FAF89039C8E014EE
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/su hashC05DB61221EEAD4F60A851D460749CA58E723FAE
-2013-03-17 13:53:34,347 | TRACE | ProcwatcherIMVPolicyManager | - AIK 0 38:1F:29:37:82:A2:D8:6C:37:05:16:D4:BE:01:2B:71:6B:98:E7:B9
-2013-03-17 13:53:34,347 | TRACE | ProcwatcherIMVPolicyManager | - AIK 1 98:47:C8:0B:BE:A2:B2:59:12:8E:6E:D0:AC:AE:41:D3:07:AC:4F:78
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - pcr0 0000000000000000000000000000000000000000
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - pcr2 0000000000000000000000000000000000000000
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - pcr5 0000000000000000000000000000000000000000
-2013-03-17 13:53:34,347 | DEBUG | ProcwatcherIMVPolicyManager | - pcr13 0000000000000000000000000000000000000000
-2013-03-17 13:53:34,347 | TRACE | ProcwatcherIMVPolicyManager | - quoteType = complete
-2013-03-17 13:53:34,347 | INFO  | IMUnit.IMUnitLibrary | - ProcwatcherIMV::initialize(0, 1, 1)
-2013-03-17 13:53:34,347 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::provideBindFunction(0, 1)
-2013-03-17 13:53:34,347 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_ProvideRecommendation, 1)
-2013-03-17 13:53:34,347 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_ReportMessageTypes, 1)
-2013-03-17 13:53:34,347 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_RequestHandshakeRetry, 1)
-2013-03-17 13:53:34,347 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_SendMessage, 1)
-2013-03-17 13:53:34,347 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_GetAttribute, 1)
-2013-03-17 13:53:34,347 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_SetAttribute, 1)
+2013-04-09 18:05:02,660 | INFO  | IMUnit.IMUnitLibrary | - Load imunit-Library version 0.8.4
+2013-04-09 18:05:02,661 | INFO  | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMVLibrary | - Load ProcwatcherIMV library 
+2013-04-09 18:05:02,661 | TRACE | ProcwatcherIMVPolicyManager | - ProcwatcherIMVPolicyManager()
+2013-04-09 18:05:02,661 | DEBUG | ProcwatcherIMVPolicyManager | - Parsing policy file /etc/tnc/procwatcherimv.policy
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 0
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 2
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 5
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - ss = 13
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/dbus-daemon hash505745DE24D3B9BF427EEF5614E6918876AFDA2A
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/cat hash453E00DB03CACB0CD5D1878070E8182AA4DB45BB
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/dash hashB3ADC6EA771CEF98F8DC090811426DA1D893C007
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/bash hash3837E89ABD189048B03A97B3FAF89039C8E014EE
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - file/bin/su hashC05DB61221EEAD4F60A851D460749CA58E723FAE
+2013-04-09 18:05:02,671 | TRACE | ProcwatcherIMVPolicyManager | - AIK 0 38:1F:29:37:82:A2:D8:6C:37:05:16:D4:BE:01:2B:71:6B:98:E7:B9
+2013-04-09 18:05:02,671 | TRACE | ProcwatcherIMVPolicyManager | - AIK 1 98:47:C8:0B:BE:A2:B2:59:12:8E:6E:D0:AC:AE:41:D3:07:AC:4F:78
+2013-04-09 18:05:02,671 | TRACE | ProcwatcherIMVPolicyManager | - AIK 2 60:71:61:65:8B:CD:75:AA:2D:A0:0A:1A:F6:77:32:11:9C:2B:18:CC
+2013-04-09 18:05:02,671 | TRACE | ProcwatcherIMVPolicyManager | - AIK 3 F4:6D:78:E7:70:C7:22:12:44:EF:C6:93:CB:28:96:43:5D:C7:18:F2
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - pcr0 0000000000000000000000000000000000000000
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - pcr2 0000000000000000000000000000000000000000
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - pcr5 0000000000000000000000000000000000000000
+2013-04-09 18:05:02,671 | DEBUG | ProcwatcherIMVPolicyManager | - pcr13 0000000000000000000000000000000000000000
+2013-04-09 18:05:02,671 | TRACE | ProcwatcherIMVPolicyManager | - quoteType = complete
+2013-04-09 18:05:02,671 | INFO  | IMUnit.IMUnitLibrary | - ProcwatcherIMV::initialize(0, 1, 1)
+2013-04-09 18:05:02,671 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::provideBindFunction(0, 1)
+2013-04-09 18:05:02,671 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_ProvideRecommendation, 1)
+2013-04-09 18:05:02,671 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_ReportMessageTypes, 1)
+2013-04-09 18:05:02,671 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_RequestHandshakeRetry, 1)
+2013-04-09 18:05:02,671 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_SendMessage, 1)
+2013-04-09 18:05:02,671 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_GetAttribute, 1)
+2013-04-09 18:05:02,671 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::getTNCSFunctionPointer(TNC_TNCS_SetAttribute, 1)
 
 ###############################################################################
 # init client
 ###############################################################################
 
-2013-03-17 13:53:34,347 | INFO  | IMUnit.IMUnitLibrary | - Load imunit-Library version 0.8.4
-2013-03-17 13:53:34,347 | INFO  | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMCLibrary | - Load ProcwatcherIMC library 
-2013-03-17 13:53:34,348 | INFO  | IMUnit.IMUnitLibrary | - ProcwatcherIMC::initialize(0, 1, 1)
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::provideBindFunction(0, 1)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::getTNCCFunctionPointer(TNC_TNCC_ReportMessageTypes, 1)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::getTNCCFunctionPointer(TNC_TNCC_RequestHandshakeRetry, 1)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::getTNCCFunctionPointer(TNC_TNCC_SendMessage, 1)
+2013-04-09 18:05:02,682 | INFO  | IMUnit.IMUnitLibrary | - Load imunit-Library version 0.8.4
+2013-04-09 18:05:02,682 | INFO  | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMCLibrary | - Load ProcwatcherIMC library 
+2013-04-09 18:05:02,682 | INFO  | IMUnit.IMUnitLibrary | - ProcwatcherIMC::initialize(0, 1, 1)
+2013-04-09 18:05:02,682 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::provideBindFunction(0, 1)
+2013-04-09 18:05:02,682 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::getTNCCFunctionPointer(TNC_TNCC_ReportMessageTypes, 1)
+2013-04-09 18:05:02,682 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::getTNCCFunctionPointer(TNC_TNCC_RequestHandshakeRetry, 1)
+2013-04-09 18:05:02,682 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::getTNCCFunctionPointer(TNC_TNCC_SendMessage, 1)
 
 ###############################################################################
 # create connection server
 ###############################################################################
 
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::notifyConnectionChange(0, 0, 0)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - expected exception: No IMV for connection ID 0 and connectionState = CREATE
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - Library ProcwatcherIMV creating IMV instance for conID 0
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMVLibrary | - createNewImvInstance( 0)
-2013-03-17 13:53:34,348 | TRACE | ProcwatcherIMVPolicyManager | - getFileEntries()
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - notifyConnectionChange new state = 0
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 0
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - notifyConnectionChange
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::notifyConnectionChange(0, 0, 1)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - notifyConnectionChange new state = 1
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 1
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - notifyConnectionChange
+2013-04-09 18:05:02,682 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::notifyConnectionChange(0, 0, 0)
+2013-04-09 18:05:02,683 | TRACE | IMUnit.IMUnitLibrary.IMVLibrary | - expected exception: No IMV for connection ID 0 and connectionState = CREATE
+2013-04-09 18:05:02,683 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - Library ProcwatcherIMV creating IMV instance for conID 0
+2013-04-09 18:05:02,683 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMVLibrary | - createNewImvInstance( 0)
+2013-04-09 18:05:02,683 | TRACE | ProcwatcherIMVPolicyManager | - getFileEntries()
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - notifyConnectionChange new state = 0
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 0
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - notifyConnectionChange
+2013-04-09 18:05:02,683 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::notifyConnectionChange(0, 0, 1)
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - notifyConnectionChange new state = 1
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 1
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - notifyConnectionChange
 
 ###############################################################################
 # create connection client
@@ -75,44 +76,44 @@ tncsim version 0.8.4
 # (0) begin handshake client
 ###############################################################################
 
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 0)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - expected exception: No IMC for connection ID 0 and connectionState = CREATE
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - Library ProcwatcherIMC creating IMC instance for conID 0
-2013-03-17 13:53:34,348 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMCLibrary | - createNewImcInstance( 0)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 0
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 1)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 1
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::beginHandshake(0, 0)
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - beginHandshake()
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - loadConfigFile()
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - process certificate entry
-2013-03-17 13:53:34,348 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Certificate File = /home/liuwanzh/tnc/privacyca/outcert
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found empty line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - process aik key entry
-2013-03-17 13:53:34,348 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - AikBlob File = /home/liuwanzh/tnc/privacyca/outkey
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
-2013-03-17 13:53:34,348 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found empty line
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Certificate File = /home/liuwanzh/tnc/privacyca/outcert
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - AikBlob File     = /home/liuwanzh/tnc/privacyca/outkey
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - open file: /home/liuwanzh/tnc/privacyca/outcert
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Requesting 1643 bytes buffer
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - open file: /home/liuwanzh/tnc/privacyca/outkey
-2013-03-17 13:53:34,348 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Requesting 559 bytes buffer
+2013-04-09 18:05:02,683 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 0)
+2013-04-09 18:05:02,683 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - expected exception: No IMC for connection ID 0 and connectionState = CREATE
+2013-04-09 18:05:02,683 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary | - Library ProcwatcherIMC creating IMC instance for conID 0
+2013-04-09 18:05:02,683 | TRACE | IMUnit.IMUnitLibrary.IMCLibrary.ProcwatcherIMCLibrary | - createNewImcInstance( 0)
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 0
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
+2013-04-09 18:05:02,683 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 1)
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 1
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
+2013-04-09 18:05:02,683 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::beginHandshake(0, 0)
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - beginHandshake()
+2013-04-09 18:05:02,683 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - loadConfigFile()
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - process certificate entry
+2013-04-09 18:05:02,688 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Certificate File = /home/liuwanzh/tnc/privacyca/outcert
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found empty line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found comment line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - process aik key entry
+2013-04-09 18:05:02,688 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - AikBlob File = /home/liuwanzh/tnc/privacyca/outkey
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - processConfigLine()
+2013-04-09 18:05:02,688 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Found empty line
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Certificate File = /home/liuwanzh/tnc/privacyca/outcert
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - AikBlob File     = /home/liuwanzh/tnc/privacyca/outkey
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - open file: /home/liuwanzh/tnc/privacyca/outcert
+2013-04-09 18:05:02,688 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Requesting 1643 bytes buffer
+2013-04-09 18:05:02,699 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - open file: /home/liuwanzh/tnc/privacyca/outkey
+2013-04-09 18:05:02,699 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Requesting 559 bytes buffer
 liuwanzh1
 liuwanzh1
 liuwanzh1
@@ -120,17 +121,17 @@ liuwanzh1
 liuwanzh1
 liuwanzh2
 liuwanzh1
-2013-03-17 13:53:34,400 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Send certificate: -----BEGIN CERTIFICATE-----
-MIIEjzCCA3egAwIBAgIQZlYBEWRzaD8oBS5x1+8VazANBgkqhkiG9w0BAQUFADBQ
+2013-04-09 18:05:02,798 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Send certificate: -----BEGIN CERTIFICATE-----
+MIIEjzCCA3egAwIBAgIQZnd3xFuUOFdXZuXnXCd+tzANBgkqhkiG9w0BAQUFADBQ
 MRYwFAYDVQQKEw1wcml2YWN5Y2EuY29tMTYwNAYDVQQDEy1Qcml2YWN5IENBIElu
-c2VjdXJlL1VuY2hlY2tlZCBBSUsgQ2VydGlmaWNhdGUwHhcNMTMwMzE1MTAyNDEx
-WhcNMTQwMzE1MTAyNDExWjAAMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
-AQEAyR36K87gh74VzwkgQdniyO7BOP2yq03rgAmAGgueKsEGgncMfkPoGtUQMWb6
-5ZTnBN85B1xTeHCi44PMBJCuc5UiBJJg3/w3RrufnIxXYrpJMsCQwy/hQuqXsx/2
-2C03DLGD5TNG8hYhv55IcpnRf0XEP5trro8WwqUcztBCP+nfESG3FmSG0ObqtB0D
-MEOvv4Pkmt+CbB3AcsrotUC6Jdg0lAFFrSEUbZQhm/ht0ybJTXtD4MotVmxdSSgO
-jOdkWzHeyP35OI27QK+S7z0utLavt/E53xCB008oCrKqdwc/hOv53rWdBRCWT+z8
-x8LPo2NeDl3LiMXMiL1MWk2iTQIDAQABo4IBszCCAa8wNwYDVR0JBDAwLjAWBgVn
+c2VjdXJlL1VuY2hlY2tlZCBBSUsgQ2VydGlmaWNhdGUwHhcNMTMwNDA3MTAxOTIy
+WhcNMTQwNDA3MTAxOTIyWjAAMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAtdcrlyyTPl6hBbyi3W2nltBSk5zVhGRAyUU2ttN8VRLLJW22c6dNVvW+FSmF
+wxMtYjrpQmvDprLw8XWQNqBVjvvewwEN9tBpZQJRc8tfGiFI9LXxxBvzpF3LfgAb
+8IQxRAXHVSnifDmq9TrZwnWsDzMm0t+5RdtkVlI+AfRZJWgN24oZJ4ceDUu/qLBn
+SVik5oPUauAbIjrDJnDM68AVARJkN9ONFi+USyzAOKrwozfJOlYKD7ll7zlbnXWe
+B8IUoVIsCIFAyzjOUBk/NYoRp0R0yboNltyFGBFnxkq21FsZ1OKlSrDfUbP6o5u5
+SDXNfeK1hk9dBB/aW5kQOz5RlwIDAQABo4IBszCCAa8wNwYDVR0JBDAwLjAWBgVn
 gQUCEDENMAsMAzEuMQIBAgIBATAUBgVngQUCEjELMAmAAQCBAQCCAQIwYgYDVR0R
 AQH/BFgwVqRCMEAxFjAUBgVngQUCAQwLaWQ6MDAwMDAwMDAxEjAQBgVngQUCAgwH
 VW5rbm93bjESMBAGBWeBBQIDDAdpZDowMDAwoBAGBWeBBQIPoAcMBWxhYmVsMAwG
@@ -140,15 +141,15 @@ BwICMCAMHlRDUEEgVHJ1c3RlZCBQbGF0Zm9ybSBJZGVudGl0eTBnBgRVHSAAMF8w
 JQYIKwYBBQUHAgEWGWh0dHA6Ly93d3cucHJpdmFjeWNhLmNvbS8wNgYIKwYBBQUH
 AgIwKgwoVENQQSBUcnVzdGVkIFBsYXRmb3JtIE1vZHVsZSBFbmRvcnNlbWVudDAf
 BgNVHSMEGDAWgBSw5ZfgmyN1sf2/AV5yujbUSDKgMzANBgkqhkiG9w0BAQUFAAOC
-AQEAExone6c8fAacRYucp0IHS9S4Brx5GcoefWxt5EfxGIVjeizhfF0wsxz32BN3
-6ZcyAwH2REWZ2cXU9sjH0JTMfk+ER2a7MNmhL57LULuJ0NC8LmgKpx7Kd7WM9GBI
-JY6ib4L5LHHDOPZ2YRWXgmDwxOyfzo5qejNhsOFbYrafn4Fjx+HlNyHXpNawrfqB
-fmUOMS/rFgFTQgrzZOEn4PII5lcgBNUxnVQ+cYqLMUbGHP+AlR5oVGFiGOD7JD4c
-goNAkFYGp8T+J3vVmGYOwsXSfC4mIxbXtTX5U0WUThxEdKThwLus/8HDsccZLlQN
-qUyyAcDG94JkqNNV66XjjtXFvQ==
+AQEAYAU0CkImpom4e5s03o77u+qlwEpzlz5F3/7oWt7TCypKFykSrcMOFh62UNQ+
+KnIJYh8QTS3J0qj0ubvV9U6uvFlRfa+urad4tJHPEssM+1459gx8ePQW1fz6gubO
+LCnTo4n6WdgQ+ApRC8CTOBorqCNYHAzxWLkAksoTJXQIj5dAZoR8XGckfx5+T1lx
+pgaKUmcHmLyt/2nttY+GGHLYUeii7HFpQWJ2elJO4pLeB71u/E9LOivggwAm8Qzc
+MMXKNjRaKRa/mmdnsgII7hyFsPqarD8jfQm1MmcWmT7s9S9p1D3qDuEfaLzOjVVz
+jVS9E/o20DLciDJoAmZM6BacDg==
 -----END CERTIFICATE-----
 
-2013-03-17 13:53:34,400 | TRACE | IMUnit.TNCC     | - sendMessage message: length: 1643type: 8432638
+2013-04-09 18:05:02,798 | TRACE | IMUnit.TNCC     | - sendMessage message: length: 1643type: 8432638
 Set TNCCSData content. length:2806
 Copy a TNCCSData object. length:2806
 
@@ -192,9 +193,9 @@ Client --> Server(2806):
  0220   53 31 43 52 55 64 4a 54  69 42 44 52 56 4a 55 53    S1CRUdJT iBDRVJUS
  0230   55 5a 4a 51 30 46 55 52  53 30 74 4c 53 30 74 43    UZJQ0FUR S0tLS0tC
  0240   6b 31 4a 53 55 56 71 65  6b 4e 44 51 54 4e 6c 5a    k1JSUVqe kNDQTNlZ
- 0250   30 46 33 53 55 4a 42 5a  30 6c 52 57 6d 78 5a 51    0F3SUJBZ 0lRWmxZQ
- 0260   6b 56 58 55 6e 70 68 0a  52 44 68 76 51 6c 4d 31    kVXUnph. RDhvQlM1
- 0270   65 44 45 72 4f 46 5a 68  65 6b 46 4f 51 6d 64 72    eDErOFZh ekFOQmdr
+ 0250   30 46 33 53 55 4a 42 5a  30 6c 52 57 6d 35 6b 4d    0F3SUJBZ 0lRWm5kM
+ 0260   33 68 47 64 56 56 50 0a  52 6d 52 59 57 6e 56 59    3hGdVVP. RmRYWnVY
+ 0270   62 6c 68 44 5a 43 74 30  65 6b 46 4f 51 6d 64 72    blhDZCt0 ekFOQmdr
  0280   63 57 68 72 61 55 63 35  64 7a 42 43 51 56 46 56    cWhraUc5 dzBCQVFV
  0290   52 6b 46 45 51 6c 45 4b  54 56 4a 5a 64 30 5a 42    RkFEQlEK TVJZd0ZB
  02a0   57 55 52 57 55 56 46 4c  52 58 63 78 64 32 4e 74    WURWUVFL RXcxd2Nt
@@ -206,43 +207,43 @@ Client --> Server(2806):
  0300   5a 0a 4d 6d 68 73 57 54  4a 30 62 46 70 44 51 6b    Z.MmhsWT J0bFpDQk
  0310   4a 54 56 58 4e 6e 55 54  4a 57 65 57 52 48 62 47    JTVXNnUT JWeWRHbG
  0320   31 68 56 30 35 6f 5a 45  64 56 64 30 68 6f 59 30    1hV05oZE dVd0hoY0
- 0330   35 4e 56 45 31 33 54 58  70 46 4d 55 31 55 51 58    5NVE13TX pFMU1UQX
- 0340   6c 4f 52 45 56 34 43 6c  64 6f 59 30 35 4e 0a 56    lOREV4Cl doY05N.V
- 0350   46 46 33 54 58 70 46 4d  55 31 55 51 58 6c 4f 52    FF3TXpFM U1UQXlOR
- 0360   45 56 34 56 32 70 42 51  55 31 4a 53 55 4a 4a 61    EV4V2pBQ U1JSUJJa
+ 0330   35 4e 56 45 31 33 54 6b  52 42 4d 30 31 55 51 58    5NVE13Tk RBM01UQX
+ 0340   68 50 56 45 6c 35 43 6c  64 6f 59 30 35 4e 0a 56    hPVEl5Cl doY05N.V
+ 0350   46 46 33 54 6b 52 42 4d  30 31 55 51 58 68 50 56    FF3TkRBM 01UQXhPV
+ 0360   45 6c 35 56 32 70 42 51  55 31 4a 53 55 4a 4a 61    El5V2pBQ U1JSUJJa
  0370   6b 46 4f 51 6d 64 72 63  57 68 72 61 55 63 35 64    kFOQmdrc WhraUc5d
  0380   7a 42 43 51 56 46 46 52  6b 46 42 54 30 4e 42 55    zBCQVFFR kFBT0NBU
  0390   54 68 42 54 55 6c 4a 51  6b 4e 6e 0a 53 30 4d 4b    ThBTUlJQ kNn.S0MK
- 03a0   51 56 46 46 51 58 6c 53  4d 7a 5a 4c 4f 44 64 6e    QVFFQXlS MzZLODdn
- 03b0   61 44 63 30 56 6e 70 33  61 32 64 52 5a 47 35 70    aDc0Vnp3 a2dRZG5p
- 03c0   65 55 38 33 51 6b 39 51  4d 6e 6c 78 4d 44 4e 79    eU83Qk9Q MnlxMDNy
- 03d0   5a 30 46 74 51 55 64 6e  64 57 56 4c 63 30 56 48    Z0FtQUdn dWVLc0VH
- 03e0   5a 32 35 6a 54 57 5a 72  0a 55 47 39 48 64 46 56    Z25jTWZr .UG9HdFV
- 03f0   52 54 56 64 69 4e 67 6f  31 57 6c 52 75 51 6b 34    RTVdiNgo 1WlRuQk4
- 0400   34 4e 55 49 78 65 46 52  6c 53 45 4e 70 4e 44 52    4NUIxeFR lSENpNDR
- 0410   51 54 55 4a 4b 51 33 56  6a 4e 56 56 70 51 6b 70    QTUJKQ3V jNVVpQkp
- 0420   4b 5a 7a 4d 76 64 7a 4e  53 63 6e 56 6d 62 6b 6c    KZzMvdzN ScnVmbkl
- 0430   34 57 46 6c 79 0a 63 45  70 4e 63 30 4e 52 64 33    4WFly.cE pNc0NRd3
- 0440   6b 76 61 46 46 31 63 56  68 7a 65 43 38 79 43 6a    kvaFF1cV hzeC8yCj
- 0450   4a 44 4d 44 4e 45 54 45  64 45 4e 56 52 4f 52 7a    JDMDNETE dENVRORz
- 0460   68 6f 57 57 68 32 4e 54  56 4a 59 33 42 75 55 6d    hoWWh2NT VJY3BuUm
- 0470   59 77 57 45 56 51 4e 58  52 79 63 6d 38 34 56 33    YwWEVQNX Rycm84V3
- 0480   64 78 0a 56 57 4e 36 64  45 4a 44 55 43 74 75 5a    dx.VWN6d EJDUCtuZ
- 0490   6b 56 54 52 7a 4e 47 62  56 4e 48 4d 45 39 69 63    kVTRzNGb VNHME9ic
- 04a0   58 52 43 4d 45 51 4b 54  55 56 50 64 6e 59 30 55    XRCMEQKT UVPdnY0U
- 04b0   47 74 74 64 43 74 44 59  6b 49 7a 51 57 4e 7a 63    GttdCtDY kIzQWNzc
- 04c0   6d 39 30 56 55 4d 32 53  6d 52 6e 4d 47 78 42 0a    m90VUM2S mRnMGxB.
- 04d0   52 6b 5a 79 55 30 56 56  59 6c 70 52 61 47 30 76    RkZyU0VV YlpRaG0v
- 04e0   61 48 51 77 65 57 4a 4b  56 46 68 30 52 44 52 4e    aHQweWJK VFh0RDRN
- 04f0   62 33 52 57 62 58 68 6b  55 31 4e 6e 54 77 70 71    b3RWbXhk U1NnTwpq
- 0500   54 32 52 72 56 33 70 49  5a 58 6c 51 4d 7a 56 50    T2RrV3pI ZXlQMzVP
- 0510   53 54 49 33 55 55 73 72  55 7a 64 36 0a 4d 48 56    STI3UUsr Uzd6.MHV
- 0520   30 54 47 46 32 64 43 39  46 4e 54 4e 34 51 30 49    0TGF2dC9 FNTN4Q0I
- 0530   77 4d 44 68 76 51 33 4a  4c 63 57 52 33 59 79 39    wMDhvQ3J LcWR3Yy9
- 0540   6f 54 33 59 31 4d 33 4a  58 5a 45 4a 53 51 31 64    oT3Y1M3J XZEJSQ1d
- 0550   55 4b 33 6f 34 43 6e 67  34 54 46 42 76 4d 6b 35    UK3o4Cng 4TFBvMk5
- 0560   6c 52 47 77 7a 54 47 6c  4e 0a 57 45 31 70 54 44    lRGwzTGl N.WE1pTD
- 0570   46 4e 56 32 73 79 61 56  52 52 53 55 52 42 55 55    FNV2syaV RRSURBUU
+ 03a0   51 56 46 46 51 58 52 6b  59 33 4a 73 65 58 6c 55    QVFFQXRk Y3JseXlU
+ 03b0   55 47 77 32 61 45 4a 69  65 57 6b 7a 56 7a 4a 75    UGw2aEJi eWkzVzJu
+ 03c0   62 48 52 43 55 32 73 31  65 6c 5a 6f 52 31 4a 42    bHRCU2s1 elZoR1JB
+ 03d0   65 56 56 56 4d 6e 52 30  54 6a 68 57 55 6b 78 4d    eVVVMnR0 TjhWUkxM
+ 03e0   53 6c 63 79 4d 6d 4d 32  0a 5a 45 35 57 64 6c 63    SlcyMmM2 .ZE5Wdlc
+ 03f0   72 52 6c 4e 74 52 67 70  33 65 45 31 30 57 57 70    rRlNtRgp 3eE10WWp
+ 0400   79 63 46 46 74 64 6b 52  77 63 6b 78 33 4f 46 68    ycFFtdkR wckx3OFh
+ 0410   58 55 55 35 78 51 6c 5a  71 64 6e 5a 6c 64 33 64    XUU5xQlZ qdnZld3d
+ 0420   46 54 6a 6c 30 51 6e 42  61 55 55 70 53 59 7a 68    FTjl0QnB aUUpSYzh
+ 0430   30 5a 6b 64 70 0a 52 6b  6b 35 54 46 68 34 65 45    0Zkdp.Rk k5TFh4eE
+ 0440   4a 32 65 6e 42 47 4d 30  78 6d 5a 30 46 69 43 6a    J2enBGM0 xmZ0FiCj
+ 0450   68 4a 55 58 68 53 51 56  68 49 56 6c 4e 75 61 57    hJUXhSQV hIVlNuaW
+ 0460   5a 45 62 58 45 35 56 48  4a 61 64 32 35 58 63 30    ZEbXE5VH Jad25Xc0
+ 0470   52 36 54 57 30 77 64 43  73 31 55 6d 52 30 61 31    R6TW0wdC s1UmR0a1
+ 0480   5a 73 0a 53 53 74 42 5a  6c 4a 61 53 6c 64 6e 54    Zs.SStBZ lJaSldnT
+ 0490   6a 49 30 62 31 70 4b 4e  47 4e 6c 52 46 56 31 4c    jI0b1pKN GNlRFV1L
+ 04a0   33 46 4d 51 6d 34 4b 55  31 5a 70 61 7a 56 76 55    3FMQm4KU 1ZpazVvU
+ 04b0   46 56 68 64 55 46 69 53  57 70 79 52 45 70 75 52    FVhdUFiS WpyREpuR
+ 04c0   45 30 32 4f 45 46 57 51  56 4a 4b 61 30 34 35 0a    E02OEFWQ VJKa045.
+ 04d0   54 30 35 47 61 53 74 56  55 33 6c 36 51 55 39 4c    T05GaStV U3l6QU9L
+ 04e0   63 6e 64 76 65 6d 5a 4b  54 32 78 5a 53 30 51 33    cndvemZK T2xZS0Q3
+ 04f0   62 47 77 33 65 6d 78 69  62 6c 68 58 5a 51 70 43    bGw3emxi blhXZQpC
+ 0500   4f 45 6c 56 62 31 5a 4a  63 30 4e 4a 52 6b 46 35    OElVb1ZJ c0NJRkF5
+ 0510   65 6d 70 50 56 55 4a 72  4c 30 35 5a 0a 62 31 4a    empPVUJr L05Z.b1J
+ 0520   77 4d 46 49 77 65 57 4a  76 54 6d 78 30 65 55 5a    wMFIweWJ vTmx0eUZ
+ 0530   48 51 6b 5a 75 65 47 74  78 4d 6a 46 47 63 31 6f    HQkZueGt xMjFGc1o
+ 0540   78 54 30 74 73 55 33 4a  45 5a 6c 56 69 55 44 5a    xT0tsU3J EZlViUDZ
+ 0550   76 4e 58 55 31 43 6c 4e  45 57 45 35 6d 5a 55 73    vNXU1ClN EWE5mZUs
+ 0560   78 61 47 73 35 5a 45 4a  43 0a 4c 32 46 58 4e 57    xaGs5ZEJ C.L2FXNW
+ 0570   74 52 54 33 6f 31 55 6d  78 33 53 55 52 42 55 55    tRT3o1Um x3SURBUU
  0580   46 43 62 7a 52 4a 51 6e  4e 36 51 30 4e 42 59 54    FCbzRJQn N6Q0NBYT
  0590   68 33 54 6e 64 5a 52 46  5a 53 4d 45 70 43 52 45    h3TndZRF ZSMEpCRE
  05a0   46 33 54 47 70 42 56 30  4a 6e 56 6d 34 4b 5a 31    F3TGpBV0 JnVm4KZ1
@@ -295,36 +296,36 @@ Client --> Server(2806):
  0890   4d 69 39 42 56 6a 56 35  64 57 70 69 56 56 4e 45    Mi9BVjV5 dWpiVVNE
  08a0   53 32 64 4e 65 6b 46 4f  51 6d 64 72 63 57 68 72    S2dNekFO QmdrcWhr
  08b0   61 55 63 35 64 7a 42 43  0a 51 56 46 56 52 6b 46    aUc5dzBC .QVFVRkF
- 08c0   42 54 30 4d 4b 51 56 46  46 51 55 56 34 62 32 35    BT0MKQVF FQUV4b25
- 08d0   6c 4e 6d 4d 34 5a 6b 46  68 59 31 4a 5a 64 57 4e    lNmM4ZkF hY1JZdWN
- 08e0   77 4d 45 6c 49 55 7a 6c  54 4e 45 4a 79 65 44 56    wMElIUzl TNEJyeDV
- 08f0   48 59 32 39 6c 5a 6c 64  34 64 44 56 46 5a 6e 68    HY29lZld 4dDVFZnh
- 0900   48 53 56 5a 71 0a 5a 57  6c 36 61 47 5a 47 4d 48    HSVZq.ZW l6aGZGMH
- 0910   64 7a 65 48 6f 7a 4d 6b  4a 4f 4d 77 6f 32 57 6d    dzeHozMk JOMwo2Wm
- 0920   4e 35 51 58 64 49 4d 6c  4a 46 56 31 6f 79 59 31    N5QXdIMl JFV1oyY1
- 0930   68 56 4f 58 4e 71 53 44  42 4b 56 45 31 6d 61 79    hVOXNqSD BKVE1may
- 0940   74 46 55 6a 4a 68 4e 30  31 4f 62 57 68 4d 4e 54    tFUjJhN0 1ObWhMNT
- 0950   64 4d 0a 56 55 78 31 53  6a 42 4f 51 7a 68 4d 62    dM.VUx1S jBOQzhMb
- 0960   57 64 4c 63 48 67 33 53  32 51 33 56 30 30 35 52    WdLcHg3S 2Q3V005R
- 0970   30 4a 4a 43 6b 70 5a 4e  6d 6c 69 4e 45 77 31 54    0JJCkpZN mliNEw1T
- 0980   45 68 49 52 45 39 51 57  6a 4a 5a 55 6c 64 59 5a    EhIRE9QW jJZUldYZ
- 0990   32 31 45 64 33 68 50 65  57 5a 36 62 7a 56 78 0a    21Ed3hPe WZ6bzVx.
- 09a0   5a 57 70 4f 61 48 4e 50  52 6d 4a 5a 63 6d 46 6d    ZWpOaHNP RmJZcmFm
- 09b0   62 6a 52 47 61 6e 67 72  53 47 78 4f 65 55 68 59    bjRGangr SGxOeUhY
- 09c0   63 45 35 68 64 33 4a 6d  63 55 49 4b 5a 6d 31 56    cE5hd3Jm cUIKZm1V
- 09d0   54 30 31 54 4c 33 4a 47  5a 30 5a 55 55 57 64 79    T01TL3JG Z0ZUUWdy
- 09e0   65 6c 70 50 52 57 34 30  55 45 6c 4a 0a 4e 57 78    elpPRW40 UElJ.NWx
- 09f0   6a 5a 30 4a 4f 56 58 68  75 56 6c 45 72 59 31 6c    jZ0JOVXh uVlErY1l
- 0a00   78 54 45 31 56 59 6b 64  49 55 43 74 42 62 46 49    xTE1VYkd IUCtBbFI
- 0a10   31 62 31 5a 48 52 6d 6c  48 54 30 51 33 53 6b 51    1b1ZHRml HT0Q3SkQ
- 0a20   30 59 77 70 6e 62 30 35  42 61 30 5a 5a 52 33 41    0Ywpnb05 Ba0ZZR3A
- 0a30   34 56 43 74 4b 4d 33 5a  57 0a 62 55 64 5a 54 33    4VCtKM3Z W.bUdZT3
- 0a40   64 7a 57 46 4e 6d 51 7a  52 74 53 58 68 69 57 48    dzWFNmQz RtSXhiWH
- 0a50   52 55 57 44 56 56 4d 46  64 56 56 47 68 34 52 57    RUWDVVMF dVVGh4RW
- 0a60   52 4c 56 47 68 33 54 48  56 7a 4c 7a 68 49 52 48    RLVGh3TH VzLzhIRH
- 0a70   4e 6a 59 31 70 4d 62 46  46 4f 43 6e 46 56 65 58    NjY1pMbF FOCnFVeX
- 0a80   6c 42 59 30 52 48 0a 4f  54 52 4b 61 33 46 4f 54    lBY0RH.O TRKa3FOT
- 0a90   6c 59 32 4e 6c 68 71 61  6e 52 59 52 6e 5a 52 50    lY2Nlhqa nRYRnZRP
+ 08c0   42 54 30 4d 4b 51 56 46  46 51 56 6c 42 56 54 42    BT0MKQVF FQVlBVTB
+ 08d0   44 61 30 6c 74 63 47 39  74 4e 47 55 31 63 7a 41    Da0ltcG9 tNGU1czA
+ 08e0   7a 62 7a 63 33 64 53 74  78 62 48 64 46 63 48 70    zbzc3dSt xbHdFcHp
+ 08f0   73 65 6a 56 47 4d 79 38  33 62 31 64 30 4e 31 52    sejVGMy8 3b1d0N1R
+ 0900   44 65 58 42 4c 0a 52 6e  6c 72 55 33 4a 6a 54 55    DeXBL.Rn lrU3JjTU
+ 0910   39 47 61 44 59 79 56 55  35 52 4b 77 70 4c 62 6b    9GaDYyVU 5RKwpLbk
+ 0920   6c 4b 57 57 67 34 55 56  52 54 4d 30 6f 77 63 57    lKWWg4UV RTM0owcW
+ 0930   6f 77 64 57 4a 32 56 6a  6c 56 4e 6e 56 32 52 6d    owdWJ2Vj lVNnV2Rm
+ 0940   78 53 5a 6d 45 72 64 58  4a 68 5a 44 52 30 53 6b    xSZmErdX JhZDR0Sk
+ 0950   68 51 0a 52 58 4e 7a 54  53 73 78 4e 44 55 35 5a    hQ.RXNzT SsxNDU5Z
+ 0960   33 67 34 5a 56 42 52 56  7a 46 6d 65 6a 5a 6e 64    3g4ZVBRV zFmejZnd
+ 0970   57 4a 50 43 6b 78 44 62  6c 52 76 4e 47 34 32 56    WJPCkxDb lRvNG42V
+ 0980   32 52 6e 55 53 74 42 63  46 4a 44 4f 45 4e 55 54    2RnUStBc FJDOENUT
+ 0990   30 4a 76 63 6e 46 44 54  6c 6c 49 51 58 70 34 0a    0JvcnFDT llIQXp4.
+ 09a0   56 30 78 72 51 57 74 7a  62 31 52 4b 57 46 46 4a    V0xrQWtz b1RKWFFJ
+ 09b0   61 6a 56 6b 51 56 70 76  55 6a 68 59 52 32 4e 72    ajVkQVpv UjhYR2Nr
+ 09c0   5a 6e 67 31 4b 31 51 78  62 48 67 4b 63 47 64 68    Zng1K1Qx bHgKcGdh
+ 09d0   53 31 56 74 59 30 68 74  54 48 6c 30 4c 7a 4a 75    S1VtY0ht THl0LzJu
+ 09e0   64 48 52 5a 4b 30 64 48  53 45 78 5a 0a 56 57 56    dHRZK0dH SExZ.VWV
+ 09f0   70 61 54 64 49 52 6e 42  52 56 30 6f 79 5a 57 78    paTdIRnB RV0oyZWx
+ 0a00   4b 54 7a 52 77 54 47 56  43 4e 7a 46 31 4c 30 55    KTzRwTGV CNzF1L0U
+ 0a10   35 54 45 39 70 64 6d 64  6e 64 30 46 74 4f 46 46    5TE9pdmd nd0FtOFF
+ 0a20   36 59 77 70 4e 54 56 68  4c 54 6d 70 53 59 55 74    6YwpNTVh LTmpSYUt
+ 0a30   53 59 53 39 74 62 57 52  75 0a 63 32 64 4a 53 54    SYS9tbWR u.c2dJST
+ 0a40   64 6f 65 55 5a 7a 55 48  46 68 63 6b 51 34 61 6d    doeUZzUH FhckQ4am
+ 0a50   5a 52 62 54 46 4e 62 57  4e 58 62 56 51 33 63 7a    ZRbTFNbW NXbVQ3cz
+ 0a60   6c 54 4f 58 41 78 52 44  4e 78 52 48 56 46 5a 6d    lTOXAxRD NxRHVFZm
+ 0a70   46 4d 65 6b 39 71 56 6c  5a 36 43 6d 70 57 55 7a    FMek9qVl Z6CmpWUz
+ 0a80   6c 46 4c 32 38 79 0a 4d  45 52 4d 59 32 6c 45 53    lFL28y.M ERMY2lES
+ 0a90   6d 39 42 62 56 70 4e 4e  6b 4a 68 59 30 52 6e 50    m9BbVpNN kJhY0RnP
  0aa0   54 30 4b 4c 53 30 74 4c  53 31 46 54 6b 51 67 51    T0KLS0tL S1FTkQgQ
  0ab0   30 56 53 56 45 6c 47 53  55 4e 42 56 45 55 74 4c    0VSVElGS UNBVEUtL
  0ac0   53 30 74 4c 51 6f 3d 0a  3c 2f 42 61 73 65 36 34    S0tLQo=. </Base64
@@ -342,18 +343,18 @@ Client --> Server(2806):
   </TNCC-TNCS-Message>
   <IMC-IMV-Message>
     <Type>0080abfe</Type>
-    <Base64>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVqekNDQTNlZ0F3SUJBZ0lRWmxZQkVXUnph
-RDhvQlM1eDErOFZhekFOQmdrcWhraUc5dzBCQVFVRkFEQlEKTVJZd0ZBWURWUVFLRXcxd2NtbDJZ
+    <Base64>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVqekNDQTNlZ0F3SUJBZ0lRWm5kM3hGdVVP
+RmRYWnVYblhDZCt0ekFOQmdrcWhraUc5dzBCQVFVRkFEQlEKTVJZd0ZBWURWUVFLRXcxd2NtbDJZ
 V041WTJFdVkyOXRNVFl3TkFZRFZRUURFeTFRY21sMllXTjVJRU5CSUVsdQpjMlZqZFhKbEwxVnVZ
-MmhsWTJ0bFpDQkJTVXNnUTJWeWRHbG1hV05oZEdVd0hoY05NVE13TXpFMU1UQXlOREV4CldoY05N
-VFF3TXpFMU1UQXlOREV4V2pBQU1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNn
-S0MKQVFFQXlSMzZLODdnaDc0Vnp3a2dRZG5peU83Qk9QMnlxMDNyZ0FtQUdndWVLc0VHZ25jTWZr
-UG9HdFVRTVdiNgo1WlRuQk44NUIxeFRlSENpNDRQTUJKQ3VjNVVpQkpKZzMvdzNScnVmbkl4WFly
-cEpNc0NRd3kvaFF1cVhzeC8yCjJDMDNETEdENVRORzhoWWh2NTVJY3BuUmYwWEVQNXRycm84V3dx
-VWN6dEJDUCtuZkVTRzNGbVNHME9icXRCMEQKTUVPdnY0UGttdCtDYkIzQWNzcm90VUM2SmRnMGxB
-RkZyU0VVYlpRaG0vaHQweWJKVFh0RDRNb3RWbXhkU1NnTwpqT2RrV3pIZXlQMzVPSTI3UUsrUzd6
-MHV0TGF2dC9FNTN4Q0IwMDhvQ3JLcWR3Yy9oT3Y1M3JXZEJSQ1dUK3o4Cng4TFBvMk5lRGwzTGlN
-WE1pTDFNV2syaVRRSURBUUFCbzRJQnN6Q0NBYTh3TndZRFZSMEpCREF3TGpBV0JnVm4KZ1FVQ0VE
+MmhsWTJ0bFpDQkJTVXNnUTJWeWRHbG1hV05oZEdVd0hoY05NVE13TkRBM01UQXhPVEl5CldoY05N
+VFF3TkRBM01UQXhPVEl5V2pBQU1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNn
+S0MKQVFFQXRkY3JseXlUUGw2aEJieWkzVzJubHRCU2s1elZoR1JBeVVVMnR0TjhWUkxMSlcyMmM2
+ZE5WdlcrRlNtRgp3eE10WWpycFFtdkRwckx3OFhXUU5xQlZqdnZld3dFTjl0QnBaUUpSYzh0Zkdp
+Rkk5TFh4eEJ2enBGM0xmZ0FiCjhJUXhSQVhIVlNuaWZEbXE5VHJad25Xc0R6TW0wdCs1UmR0a1Zs
+SStBZlJaSldnTjI0b1pKNGNlRFV1L3FMQm4KU1ZpazVvUFVhdUFiSWpyREpuRE02OEFWQVJKa045
+T05GaStVU3l6QU9LcndvemZKT2xZS0Q3bGw3emxiblhXZQpCOElVb1ZJc0NJRkF5empPVUJrL05Z
+b1JwMFIweWJvTmx0eUZHQkZueGtxMjFGc1oxT0tsU3JEZlViUDZvNXU1ClNEWE5mZUsxaGs5ZEJC
+L2FXNWtRT3o1Umx3SURBUUFCbzRJQnN6Q0NBYTh3TndZRFZSMEpCREF3TGpBV0JnVm4KZ1FVQ0VE
 RU5NQXNNQXpFdU1RSUJBZ0lCQVRBVUJnVm5nUVVDRWpFTE1BbUFBUUNCQVFDQ0FRSXdZZ1lEVlIw
 UgpBUUgvQkZnd1ZxUkNNRUF4RmpBVUJnVm5nUVVDQVF3TGFXUTZNREF3TURBd01EQXhFakFRQmdW
 bmdRVUNBZ3dIClZXNXJibTkzYmpFU01CQUdCV2VCQlFJRERBZHBaRG93TURBd29CQUdCV2VCQlFJ
@@ -364,13 +365,13 @@ bFpDQlFiR0YwWm05eWJTQkpaR1Z1ZEdsMGVUQm5CZ1JWSFNBQU1GOHcKSlFZSUt3WUJCUVVIQWdF
 V0dXaDBkSEE2THk5M2QzY3VjSEpwZG1GamVXTmhMbU52YlM4d05nWUlLd1lCQlFVSApBZ0l3S2d3
 b1ZFTlFRU0JVY25WemRHVmtJRkJzWVhSbWIzSnRJRTF2WkhWc1pTQkZibVJ2Y25ObGJXVnVkREFm
 CkJnTlZIU01FR0RBV2dCU3c1WmZnbXlOMXNmMi9BVjV5dWpiVVNES2dNekFOQmdrcWhraUc5dzBC
-QVFVRkFBT0MKQVFFQUV4b25lNmM4ZkFhY1JZdWNwMElIUzlTNEJyeDVHY29lZld4dDVFZnhHSVZq
-ZWl6aGZGMHdzeHozMkJOMwo2WmN5QXdIMlJFV1oyY1hVOXNqSDBKVE1maytFUjJhN01ObWhMNTdM
-VUx1SjBOQzhMbWdLcHg3S2Q3V005R0JJCkpZNmliNEw1TEhIRE9QWjJZUldYZ21Ed3hPeWZ6bzVx
-ZWpOaHNPRmJZcmFmbjRGangrSGxOeUhYcE5hd3JmcUIKZm1VT01TL3JGZ0ZUUWdyelpPRW40UElJ
-NWxjZ0JOVXhuVlErY1lxTE1VYkdIUCtBbFI1b1ZHRmlHT0Q3SkQ0Ywpnb05Ba0ZZR3A4VCtKM3ZW
-bUdZT3dzWFNmQzRtSXhiWHRUWDVVMFdVVGh4RWRLVGh3THVzLzhIRHNjY1pMbFFOCnFVeXlBY0RH
-OTRKa3FOTlY2NlhqanRYRnZRPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+QVFVRkFBT0MKQVFFQVlBVTBDa0ltcG9tNGU1czAzbzc3dStxbHdFcHpsejVGMy83b1d0N1RDeXBL
+RnlrU3JjTU9GaDYyVU5RKwpLbklKWWg4UVRTM0owcWowdWJ2VjlVNnV2RmxSZmErdXJhZDR0SkhQ
+RXNzTSsxNDU5Z3g4ZVBRVzFmejZndWJPCkxDblRvNG42V2RnUStBcFJDOENUT0JvcnFDTllIQXp4
+V0xrQWtzb1RKWFFJajVkQVpvUjhYR2NrZng1K1QxbHgKcGdhS1VtY0htTHl0LzJudHRZK0dHSExZ
+VWVpaTdIRnBRV0oyZWxKTzRwTGVCNzF1L0U5TE9pdmdnd0FtOFF6YwpNTVhLTmpSYUtSYS9tbWRu
+c2dJSTdoeUZzUHFhckQ4amZRbTFNbWNXbVQ3czlTOXAxRDNxRHVFZmFMek9qVlZ6CmpWUzlFL28y
+MERMY2lESm9BbVpNNkJhY0RnPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
 </Base64>
   </IMC-IMV-Message>
 </TNCCS-Batch>
@@ -379,42 +380,41 @@ OTRKa3FOTlY2NlhqanRYRnZRPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
 # (1) receive TNCCSData server
 ###############################################################################
 
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::receiveMessage(imvID=0, conID=0, messageBuffer=0x0x9cfd3a8, messageLength=66b, messageType=0x0080abfe)
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - receiveMessage round 0
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Received first message, should be the x509 cert
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - processFirstMessage()
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - loadX509Cert()
-2013-03-17 13:53:34,402 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - X509 certificate successfully received
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - loadPKey()
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - loadRSA()
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - checkClientKnown()
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Size of fingerprint:20
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - The fingerprint: 98:47:C8:0B:BE:A2:B2:59:12:8E:6E:D0:AC:AE:41:D3:07:AC:4F:78
-2013-03-17 13:53:34,402 | TRACE | ProcwatcherIMVPolicyManager | - isAikKnown()lll
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Generating nonce...
-nonce is:
-ac3895fcc6cc4dea8a0b43764999e0167e56f579llllllll
-llllllll
-llllllll
-llllllll
-llllllll
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - cal by imv,before:/bin/dbus-daemon
-505745DE24D3B9BF427E?8????M??CvI??~V?y
+2013-04-09 18:05:02,799 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::receiveMessage(imvID=0, conID=0, messageBuffer=0x0x9470580, messageLength=66b, messageType=0x0080abfe)
+2013-04-09 18:05:02,799 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - receiveMessage round 0
+2013-04-09 18:05:02,799 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Received first message, should be the x509 cert
+2013-04-09 18:05:02,799 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - processFirstMessage()
+2013-04-09 18:05:02,799 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - loadX509Cert()
+2013-04-09 18:05:02,800 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - X509 certificate successfully received
+2013-04-09 18:05:02,800 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - loadPKey()
+2013-04-09 18:05:02,800 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - loadRSA()
+2013-04-09 18:05:02,800 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - checkClientKnown()
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Size of fingerprint:20
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - The fingerprint: F4:6D:78:E7:70:C7:22:12:44:EF:C6:93:CB:28:96:43:5D:C7:18:F2
+2013-04-09 18:05:02,800 | TRACE | ProcwatcherIMVPolicyManager | - isAikKnown()lll
+2013-04-09 18:05:02,800 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Generating nonce...
+ebfa96d0f2e90895d744value len:40 and file len 16 
+value len:40 and file len 8 
+value len:40 and file len 9 
+value len:40 and file len 9 
+value len:40 and file len 7 
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - hou cal by imv,before:/bin/dbus-daemon
+505745DE24D3B9BF427EEF5614E6918876AFDA2AEBFA96D0F2E90895D744
 /bin/cat
-453E00DB03CACB0CD5D1?8????M??CvI??~V?y
+453E00DB03CACB0CD5D1878070E8182AA4DB45BBEBFA96D0F2E90895D744
 /bin/dash
-B3ADC6EA771CEF98F8DC?8????M??CvI??~V?y
+B3ADC6EA771CEF98F8DC090811426DA1D893C007EBFA96D0F2E90895D744
 /bin/bash
-3837E89ABD189048B03A?8????M??CvI??~V?y
+3837E89ABD189048B03A97B3FAF89039C8E014EEEBFA96D0F2E90895D744
 /bin/su
-C05DB61221EEAD4F60A8?8????M??CvI??~V?y
+C05DB61221EEAD4F60A851D460749CA58E723FAEEBFA96D0F2E90895D744
 
-259
-259
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - cal by imv,after:;f??J}v?w$??I?KJE??,d0
-2013-03-17 13:53:34,402 | TRACE | IMUnit.TNCS     | - sendMessage message: length: 21type: 8432638
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::batchEnding(0, 0)
-2013-03-17 13:53:34,402 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - batchEnding
+359
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - cal by imv,after:93BB6640A858948AE8F070154C45F55C25E56153
+digest from imv:ˆ)î<æNï\¯énêpX^˜)lala
+2013-04-09 18:05:02,800 | TRACE | IMUnit.TNCS     | - sendMessage message: length: 20type: 8432638
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::batchEnding(0, 0)
+2013-04-09 18:05:02,800 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - batchEnding
 Set TNCCSData content. length:1ce
 Copy a TNCCSData object. length:1ce
 Assign a TNCCSData object. length:1ce
@@ -448,8 +448,8 @@ Server --> Client(462):
  0150   49 4d 56 2d 4d 65 73 73  61 67 65 3e 0a 20 20 20    IMV-Mess age>.   
  0160   20 3c 54 79 70 65 3e 30  30 38 30 61 62 66 65 3c     <Type>0 080abfe<
  0170   2f 54 79 70 65 3e 0a 20  20 20 20 3c 42 61 73 65    /Type>.     <Base
- 0180   36 34 3e 72 44 69 56 2f  4d 62 4d 54 65 71 4b 43    64>rDiV/ MbMTeqKC
- 0190   30 4e 32 53 5a 6e 67 46  6e 35 57 39 58 6b 68 0a    0N2SZngF n5W9Xkh.
+ 0180   36 34 3e 52 55 4a 47 51  54 6b 32 52 44 42 47 4d    64>RUJGQ Tk2RDBGM
+ 0190   6b 55 35 4d 44 67 35 4e  55 51 33 4e 44 51 3d 0a    kU5MDg5N UQ3NDQ=.
  01a0   3c 2f 42 61 73 65 36 34  3e 0a 20 20 3c 2f 49 4d    </Base64 >.  </IM
  01b0   43 2d 49 4d 56 2d 4d 65  73 73 61 67 65 3e 0a 3c    C-IMV-Me ssage>.<
  01c0   2f 54 4e 43 43 53 2d 42  61 74 63 68 3e 0a          /TNCCS-B atch>.
@@ -458,7 +458,7 @@ Server --> Client(462):
 <TNCCS-Batch BatchId="2" Recipient="TNCC" xmlns="http://www.trustedcomputinggroup.org/IWG/TNC/1_0/IF_TNCCS#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.trustedcomputinggroup.org/IWG/TNC/1_0/IF_TNCCS# https://www.trustedcomputinggroup.org/XML/SCHEMA/TNCCS_1.0.xsd">
   <IMC-IMV-Message>
     <Type>0080abfe</Type>
-    <Base64>rDiV/MbMTeqKC0N2SZngFn5W9Xkh
+    <Base64>RUJGQTk2RDBGMkU5MDg5NUQ3NDQ=
 </Base64>
   </IMC-IMV-Message>
 </TNCCS-Batch>
@@ -467,26 +467,19 @@ Server --> Client(462):
 # (1) receive TNCCSData client
 ###############################################################################
 
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::receiveMessage(imcID=0, conID=0, messageBuffer=0x0x9cf5868, messageLength=15, messageType=0x0080abfe)
-2013-03-17 13:53:34,402 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - receiveMessage round 1
-2013-03-17 13:53:34,403 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - helloReceived Message: ?8????M??CvI??~V?y!
-2013-03-17 13:53:34,405 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - 
-/bin/dbus-daemon
-505745DE24D3B9BF427EEF5614E6918876AFDA2A
-2013-03-17 13:53:34,405 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - 
-/bin/cat
-453E00DB03CACB0CD5D1878070E8182AA4DB45BB
-2013-03-17 13:53:34,406 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - 
-/bin/dash
-B3ADC6EA771CEF98F8DC090811426DA1D893C007
-2013-03-17 13:53:34,410 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - 
-/bin/bash
-3837E89ABD189048B03A97B3FAF89039C8E014EE
-2013-03-17 13:53:34,410 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Send Message before hash: Length = 370 Bytes.
-2013-03-17 13:53:34,410 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - after hash and translate:AF1B5E8D4C40013192E892DFF65137FA19957372
-2013-03-17 13:53:34,410 | TRACE | IMUnit.TNCC     | - sendMessage message: length: 20type: 8432638
-2013-03-17 13:53:34,410 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::batchEnding(0, 0)
-2013-03-17 13:53:34,410 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - batchEnding
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::receiveMessage(imcID=0, conID=0, messageBuffer=0x0x946c000, messageLength=14, messageType=0x0080abfe)
+2013-04-09 18:05:02,800 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - receiveMessage round 1
+2013-04-09 18:05:02,800 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - imcReceived Message: EBFA96D0F2E90895D744
+len value 60 and len file 16
+len value 60 and len file 8
+len value 60 and len file 9
+len value 60 and len file 9
+2013-04-09 18:05:02,807 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Send Message before hash: Length = 290 Bytes.
+2013-04-09 18:05:02,807 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - after hash,files turn to:C223A347BDBCDD30082401B81249C859FC4B27C3
+digest from imc:°àç¾=¿xMçðÁâ:4<ü!w1
+2013-04-09 18:05:02,807 | TRACE | IMUnit.TNCC     | - sendMessage message: length: 20type: 8432638
+2013-04-09 18:05:02,807 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::batchEnding(0, 0)
+2013-04-09 18:05:02,807 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - batchEnding
 Set TNCCSData content. length:1ce
 Copy a TNCCSData object. length:1ce
 Assign a TNCCSData object. length:1ce
@@ -520,8 +513,8 @@ Client --> Server(462):
  0150   49 4d 56 2d 4d 65 73 73  61 67 65 3e 0a 20 20 20    IMV-Mess age>.   
  0160   20 3c 54 79 70 65 3e 30  30 38 30 61 62 66 65 3c     <Type>0 080abfe<
  0170   2f 54 79 70 65 3e 0a 20  20 20 20 3c 42 61 73 65    /Type>.     <Base
- 0180   36 34 3e 72 78 74 65 6a  55 78 41 41 54 47 53 36    64>rxtej UxAATGS6
- 0190   4a 4c 66 39 6c 45 33 2b  68 6d 56 63 33 49 3d 0a    JLf9lE3+ hmVc3I=.
+ 0180   36 34 3e 44 37 44 67 35  37 34 39 76 33 68 4e 35    64>D7Dg5 749v3hN5
+ 0190   2f 44 42 34 6a 6f 30 50  48 2f 38 49 58 63 3d 0a    /DB4jo0P H/8IXc=.
  01a0   3c 2f 42 61 73 65 36 34  3e 0a 20 20 3c 2f 49 4d    </Base64 >.  </IM
  01b0   43 2d 49 4d 56 2d 4d 65  73 73 61 67 65 3e 0a 3c    C-IMV-Me ssage>.<
  01c0   2f 54 4e 43 43 53 2d 42  61 74 63 68 3e 0a          /TNCCS-B atch>.
@@ -530,7 +523,7 @@ Client --> Server(462):
 <TNCCS-Batch BatchId="3" Recipient="TNCS" xmlns="http://www.trustedcomputinggroup.org/IWG/TNC/1_0/IF_TNCCS#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.trustedcomputinggroup.org/IWG/TNC/1_0/IF_TNCCS# https://www.trustedcomputinggroup.org/XML/SCHEMA/TNCCS_1.0.xsd">
   <IMC-IMV-Message>
     <Type>0080abfe</Type>
-    <Base64>rxtejUxAATGS6JLf9lE3+hmVc3I=
+    <Base64>D7Dg5749v3hN5/DB4jo0PH/8IXc=
 </Base64>
   </IMC-IMV-Message>
 </TNCCS-Batch>
@@ -539,15 +532,15 @@ Client --> Server(462):
 # (2) receive TNCCSData server
 ###############################################################################
 
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::receiveMessage(imvID=0, conID=0, messageBuffer=0x0x9cf5868, messageLength=14, messageType=0x0080abfe)
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - receiveMessage round 1
-2013-03-17 13:53:34,411 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Received 2nd Message: ?^?L@1?????Q7??sr
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - guoangggg:AF1B5E8D4C40013192E892DFF65137FA19957372
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::batchEnding(0, 0)
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - batchEnding
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::solicitRecommendation(0, 0)
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - solicitRecommendation
-2013-03-17 13:53:34,411 | TRACE | IMUnit.TNCS     | - provideRecommendation recommendation: 0 evaluation: 4
+2013-04-09 18:05:02,808 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::receiveMessage(imvID=0, conID=0, messageBuffer=0x0x9470230, messageLength=14, messageType=0x0080abfe)
+2013-04-09 18:05:02,808 | DEBUG | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - receiveMessage round 1
+2013-04-09 18:05:02,808 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - Received 2nd Message: ????=?xM????:4<?!w
+2013-04-09 18:05:02,808 | INFO  | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - good file-hash signature :-)
+2013-04-09 18:05:02,808 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::batchEnding(0, 0)
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - batchEnding
+2013-04-09 18:05:02,808 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::solicitRecommendation(0, 0)
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - solicitRecommendation
+2013-04-09 18:05:02,808 | TRACE | IMUnit.TNCS     | - provideRecommendation recommendation: 0 evaluation: 4
 Set TNCCSData content. length:1f5
 Copy a TNCCSData object. length:1f5
 Copy a TNCCSData object. length:1f5
@@ -605,14 +598,14 @@ Last message Server --> Client(501):
 # (2) receive last TNCCSData client
 ###############################################################################
 
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 2)
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 2
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 5)
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 5
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
-2013-03-17 13:53:34,411 | WARN  | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC deleting imc for connection ID 0 imc ID 0
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Destructor
+2013-04-09 18:05:02,808 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 2)
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 2
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
+2013-04-09 18:05:02,808 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 5)
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 5
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - notifyConnectionChange
+2013-04-09 18:05:02,808 | WARN  | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC deleting imc for connection ID 0 imc ID 0
+2013-04-09 18:05:02,808 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMC | - Destructor
 Copy a TNCCSData object. length:1ce
 Delete an TNCCSData object.
 
@@ -626,28 +619,28 @@ Delete an TNCCSData object.
 # delete server
 ###############################################################################
 
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::notifyConnectionChange(0, 0, 5)
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - notifyConnectionChange new state = 5
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 5
-2013-03-17 13:53:34,411 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - notifyConnectionChange
-2013-03-17 13:53:34,411 | WARN  | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV deleting imv for connection ID 0 imv ID 0
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::terminate(0)
+2013-04-09 18:05:02,809 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::notifyConnectionChange(0, 0, 5)
+2013-04-09 18:05:02,809 | TRACE | IMUnit.AbstractIMUnit.AbstractIMV | - notifyConnectionChange new state = 5
+2013-04-09 18:05:02,809 | TRACE | IMUnit.AbstractIMUnit | - notifyConnectionChange new state = 5
+2013-04-09 18:05:02,809 | TRACE | IMUnit.AbstractIMUnit.AbstractIMC.ProcwatcherIMV | - notifyConnectionChange
+2013-04-09 18:05:02,809 | WARN  | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV deleting imv for connection ID 0 imv ID 0
+2013-04-09 18:05:02,809 | DEBUG | IMUnit.IMUnitLibrary.IMVLibrary | - ProcwatcherIMV::terminate(0)
 
 ###############################################################################
 # delete client
 ###############################################################################
 
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 5)
-2013-03-17 13:53:34,411 | WARN  | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC caught ResultException: No IMC for connection ID 0!, result=6
-2013-03-17 13:53:34,411 | WARN  | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC deleting imc for connection ID 0 imc ID 0
-2013-03-17 13:53:34,411 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::terminate(0)
-2013-03-17 13:53:34,411 | INFO  | IMUnit.IMUnitLibrary | - Unload Library ProcwatcherIMC
+2013-04-09 18:05:02,809 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::notifyConnectionChange(0, 0, 5)
+2013-04-09 18:05:02,809 | WARN  | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC caught ResultException: No IMC for connection ID 0!, result=6
+2013-04-09 18:05:02,809 | WARN  | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC deleting imc for connection ID 0 imc ID 0
+2013-04-09 18:05:02,809 | DEBUG | IMUnit.IMUnitLibrary.IMCLibrary | - ProcwatcherIMC::terminate(0)
+2013-04-09 18:05:02,809 | INFO  | IMUnit.IMUnitLibrary | - Unload Library ProcwatcherIMC
 
 ###############################################################################
 # exit program
 ###############################################################################
 
 Delete an TNCCSData object.
-2013-03-17 13:53:34,411 | INFO  | IMUnit.IMUnitLibrary | - Unload Library ProcwatcherIMV
+2013-04-09 18:05:02,809 | INFO  | IMUnit.IMUnitLibrary | - Unload Library ProcwatcherIMV
 Delete an TNCCSData object.
 Delete an TNCCSData object.

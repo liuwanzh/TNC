@@ -119,6 +119,10 @@ TNC_Result AttestationIMV::receiveMessage(TNC_BufferReference message,
 			//tncs.provideRecommendation(); TNC_IMV_ACTION_RECOMMENDATION_NO_ACCESS
 			return TNC_RESULT_SUCCESS;
 		}
+        else
+        {
+            LOG4CXX_INFO(logger,"Client Certificate known.:-)");
+        }
 
 		entries = policyManager->getPcrEntries();
 		quoteType = policyManager->getQuoteType();
@@ -140,11 +144,11 @@ TNC_Result AttestationIMV::receiveMessage(TNC_BufferReference message,
 		if (quoteType == complete) {
 			LOG4CXX_INFO(logger, "Complete Quoting... Checking signature...");
 			if (1 != RSA_verify(NID_sha1, quoteDigest, SHA_DIGEST_LENGTH, message, length, rsa)) {
-				LOG4CXX_FATAL(logger, "Bad signature :-(");
+				LOG4CXX_FATAL(logger, "Bad pcr signature :-(");
 				tncs.provideRecommendation(TNC_IMV_ACTION_RECOMMENDATION_NO_ACCESS,
 								TNC_IMV_EVALUATION_RESULT_COMPLIANT);
 			} else {
-				LOG4CXX_INFO(logger, "Good signature :-)");
+				LOG4CXX_INFO(logger, "Good pcr signature :-)");
 				tncs.provideRecommendation(TNC_IMV_ACTION_RECOMMENDATION_ALLOW,
 								TNC_IMV_EVALUATION_RESULT_COMPLIANT);
 			}

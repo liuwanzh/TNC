@@ -114,7 +114,7 @@ TNC_Result ProcwatcherIMV::receiveMessage(TNC_BufferReference message,
         {
             nonceBuf = new unsigned char[50]; 
             //验证完AIK证书后，发一个nonce过去，以防止重放攻击
-            LOG4CXX_TRACE(logger, "Generating nonceee...");
+            LOG4CXX_TRACE(logger, "Generating nonce...");
             if (RAND_bytes(nonceBuf,10) == 0) {
                 LOG4CXX_FATAL(logger, "RAND_bytes() failed!!!");
                 nothingWrong = false;
@@ -164,7 +164,9 @@ TNC_Result ProcwatcherIMV::receiveMessage(TNC_BufferReference message,
         ss.write((const char *)message, length);
         std::vector<prop_type> properties = readAllProperties(ss);
 
-        validationFinished = true;
+	LOG4CXX_INFO(logger, "good file-hash signature :-)" );
+        
+	validationFinished = true;
         actionRecommendation = TNC_IMV_ACTION_RECOMMENDATION_ALLOW;
         evaluationResult = TNC_IMV_EVALUATION_RESULT_DONT_KNOW;
         free(temp_buf);

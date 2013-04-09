@@ -459,7 +459,7 @@ TNC_Result ProcwatcherIMC::receiveMessage(TNC_BufferReference message,
     char *temp_buffer=(char *)malloc(1024);
     strcpy(temp_buffer,(char *)digest);
     translate2chars(temp_buffer,SHA1_LENGTH);
-    LOG4CXX_DEBUG(logger,"after hash and translate:"<<temp_buffer);
+    LOG4CXX_DEBUG(logger,"after hash,files turn to:"<<temp_buffer);
     memset(digest,0,20);
     SHA1((unsigned char*)temp_buffer,strlen(temp_buffer),digest);
     printf("digest from imc:%s\n",digest);
